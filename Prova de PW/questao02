@@ -1,0 +1,18 @@
+<!DOCTYPE html> <html> 
+    <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Exercício número 2</title> 
+    </head> 
+    <body> 
+        <script> 
+            let clientes = ["Lucas","Ana","Maria","Eduarda","Carla","Mirna","José"]; // Criação da variável clientes por meio de um array 
+            let result = false; // Criação da variável por meio do let 
+            let busca = "Eduarda"; // Criação da variável por meio do let 
+            for (const nome of clientes){ // Estrutura de repetição FOR OF, na qual a cada iteraçao um valor de uma propriedade diferente é atribuido à variável NOME; CLIENTES, que é o objeto cujos atributos serão iterados 
+                if (nome == busca){
+                result = true; // Caso o resultado seja igual ao que for buscado, o resultado passará a ser verdadeiro (true) 
+                console.log(result); // Console para apresentar o resultado verdadeiro obtido 
+        } 
+            } 
+</script>
+</body> 
+</html>

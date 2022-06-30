@@ -1,0 +1,30 @@
+<!DOCTYPE html> <html> 
+    <head> 
+        <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Exercício número 1</title> 
+        </head> 
+        <body> 
+            <script>
+             let website = { // Criação da variável que armazena a estrutura por meio do let
+             titulo: "Sistema de Avaliação Online", // Propriedade fundamental 
+             url: "https://www.sistemaOnlineAv.com.br", 
+             tags: ["Biologia", "História", "Matemática", "Português"], 
+             disciplinasTecnicas:{ // Disciplinas da base técnicas de cada curso contidas na Propriedade criada anteriormente 
+             adm: ["Direito do Consumidor", "Marketing"], 
+             info: ["HTML", "PHP","JavaScript"], 
+             enf: ["Saúde da Mulher", "Primeiro Socorros"]}, 
+             escola:function(nome){ // Criação do método escola, juntamente à função que irá demonstrar a informação sobre o WebSite (nome da escola) em um console criado posteriormente 
+             console.log(nome);
+
+            } 
+        } 
+            console.log(website.titulo); 
+            console.log(website.url); 
+            console.log(website.tags[2]); 
+            console.log(website.disciplinasTecnicas.adm[1]); // O ".adm" foi utilizado de tal forma que mostrará a disciplina do curso de Administração e o 1 irá destinar à sua localização 
+            website.escola("EEEP Amélia Figueiredo"); // WebSite, ou seja, a variável ou o método do objeto 
+            // Console exibindo o título do arquivo, url, tags, discpTec, escola 
+            
+            </script> 
+            </body> 
+            </html>

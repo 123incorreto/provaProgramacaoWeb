@@ -1,0 +1,16 @@
+<!DOCTYPE html> <html> 
+    <head> 
+        <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Exercício número 3</title> 
+    </head> 
+    <body> 
+        <script> // Uso da Condição de Seta, isto é, arrow e criação da variável calSalario, a qual receberá o valor que foi escolhido, ou seja, o valor da base, a gratificação e o ajuste 
+        let calSalario = (base = 1200, gratificacao = 0, ajuste = 1.1) => {
+            return  `Salário: ${(base * ajuste) + gratificacao}`; // Cálculo };
+            console.log(calSalario()); //Esse console é responsável por fazer o cálculo com os calores escolhidos previamente 
+            console.log(calSalario(1300)); // Substitui o valor anterior de 1200 
+            console.log(calSalario(1400,100,1.2)); // Substitui os três valores sequenciados 
+        }
+</script> 
+</body> 
+</html>
